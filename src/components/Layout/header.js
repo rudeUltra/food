@@ -4,7 +4,7 @@ import HeaderCartButton from "./HearCartButton";
 const Header=props=>{
     return <Fragment>
         <header className={classes.header}>
-            <h1>Rudhra Meals</h1>
+            <h1>Foodys</h1>
             <HeaderCartButton/>
         </header>
       
