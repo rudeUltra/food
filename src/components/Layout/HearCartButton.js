@@ -2,7 +2,7 @@ import React from "react";
 import CartIcon from "../Cart/Carticon";
 import classes from './HCB.module.css';
 const HeaderCartButton=props=>{
-    return <button className={classes.button}>
+    return <button className={classes.button} onClick={props.Click}>
     <span className={classes.icon}>
     <CartIcon/>
     </span>
