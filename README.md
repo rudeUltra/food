@@ -13,3 +13,7 @@
 </ul>
 
 ![](https://github.com/rudeUltra/food/blob/master/public/food.gif)
+
+![](https://github.com/rudeUltra/food/blob/master/public/screen-recording%20(1).gif)
+
+![](https://github.com/rudeUltra/food/blob/master/public/screen-recording%20(2).gif)
