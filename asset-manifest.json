@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rudeUltra/food/tree/master/static/css/main.e1c60c35.css",
+    "main.js": "/rudeUltra/food/tree/master/static/js/main.71c89817.js",
+    "index.html": "/rudeUltra/food/tree/master/index.html",
+    "main.e1c60c35.css.map": "/rudeUltra/food/tree/master/static/css/main.e1c60c35.css.map",
+    "main.71c89817.js.map": "/rudeUltra/food/tree/master/static/js/main.71c89817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c60c35.css",
+    "static/js/main.71c89817.js"
+  ]
+}
