@@ -10,6 +10,47 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: black;
+  background: url(./top-view-circular-food-frame.jpg);
+  background-size: cover;
+  animation: change-bg 30s linear infinite
 }
+@keyframes change-bg{
+  0%{
+    background: url(./top-view-circular-food-frame.jpg);
+    background-size: cover;
 
+  }
+  20%{
+    background: url(./top-view-circular-food-frame.jpg);
+    background-size: cover;
+
+  }
+  25%{
+    background: url(./top-view-bowls-with-indian-food.jpg);
+    background-size: cover;
+  }
+  45%{
+    background: url(./top-view-bowls-with-indian-food.jpg);
+    background-size: cover;
+  }
+
+
+  50%{
+    background: url(./high-angle-fast-food-white-table.jpg);
+    background-size: cover;
+  }
+  70%{
+    background: url(./high-angle-fast-food-white-table.jpg);
+    background-size: cover;
+  }
+  75%{
+    background: url(./top-view-indian-food-assortment.jpg);
+    background-size: cover;
+  }
+  100%{
+    background: url(./top-view-indian-food-assortment.jpg);
+    background-size: cover;
+  }
+
+}

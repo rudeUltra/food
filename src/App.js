@@ -6,6 +6,7 @@ import Meals from "./components/Meals/Meals"
 import Cart from "./components/Cart/Cart";
 import CartProvider from "./store/CartProvider";
 
+
 function App() {
   const[cartShown,setCart]=useState(false);
 
@@ -17,6 +18,7 @@ function App() {
     setCart(false);
   };
   return (
+    <div>
     <CartProvider>
     {cartShown && <Cart onClose={hideCart}/>}
       <Header onShowCart={showCart}/>
@@ -24,6 +26,9 @@ function App() {
       <Meals/>
       </main>
     </CartProvider>
+
+    </div>
+    
   );
 }
 
